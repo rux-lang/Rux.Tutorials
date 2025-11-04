@@ -1,0 +1,7 @@
+use System::Print;
+
+func Main(): int32
+{
+	Print("Hello World!");
+	return 0;
+}

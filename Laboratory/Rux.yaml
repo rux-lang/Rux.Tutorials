@@ -1,0 +1,21 @@
+project:
+  name: Laboratory
+  version: 0.1.0
+  sourceDir: Source
+  outputDir: Bin
+  type: Application
+
+dependencies:
+  - name: System
+    version: 0.1.0
+
+configurations:
+  debug:
+    optimizationLevel: 0
+    outputFilename: Lab
+    outputPath: Bin/Debug
+
+  release:
+    optimizationLevel: 3
+    outputFilename: Lab
+    outputPath: Bin/Release
